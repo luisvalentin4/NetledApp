@@ -20,6 +20,7 @@ Copyright (C) 2006 Potix Corporation. All Rights Reserved.
 -->
 <zk xmlns="http://www.zkoss.org/2005/zul">
     <window>
-	Aplicacion Web de Control Domotico
+        Netled App    
     </window>
+
 </zk>
