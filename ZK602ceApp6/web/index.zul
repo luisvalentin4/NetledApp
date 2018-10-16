@@ -21,6 +21,21 @@ Copyright (C) 2006 Potix Corporation. All Rights Reserved.
 <zk xmlns="http://www.zkoss.org/2005/zul">
     <window>
         Netled App 2
-    </window>
-
+    </window>   
+     <tree id="tree" width="400px" rows="8">
+			<treecols sizable="true">
+				<treecol label="Dispositivo" />
+				<treecol label="Prender" />
+                                <treecol label="Apagar" />
+			</treecols>
+			<treechildren>
+				<treeitem>
+					<treerow>
+						<treecell label="Luces Entrada" />
+						<treecell label="botonON" />
+                                                <treecell label="botonOFF" />
+					</treerow>
+				</treeitem>			
+			</treechildren>
+		</tree>
 </zk>
